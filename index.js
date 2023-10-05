@@ -193,7 +193,7 @@ async function start() {
   let locationCurrent = "entrance";
   const welcomeMessage = `\nThe Lich's Lair\n\nPress Enter to Start\n`;
   let answer = await ask(welcomeMessage);
-  console.log("You are an adventurer on a quest to destroy the foul lich known as Ruthom, who you have herd tales of since you were a child. Some time ago he made himself know to you when he took the lives of the ones you loved. From that day forward you swore to be his end. You have been traking him for years and finnaly found the location of his lair. The entrance to the lair lies ahead of you. Peering in you see a long dark 'hallway'\n\ntype 'help' for a list of commands\n")
+  console.log("You are an adventurer on a quest to destroy the foul lich known as Ruthom, who you have herd tales of since you were a child. Some time ago he made himself know to you when he took the lives of the ones you loved. From that day forward you swore to be his end. You have been tracking him for years and finnaly found the location of his lair. The entrance to the lair lies ahead of you. Peering in you see a long dark 'hallway'\n\ntype 'help' for a list of commands\n")
   var playerInput;
     while(playerInput !== "exit"){
       function move(newLocation) {
